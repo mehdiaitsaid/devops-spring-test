@@ -26,7 +26,7 @@ class DevOpsApplicationTest {
     @Autowired
     public MockMvc mockMvc;
 
-    String url = "http://localhost:8081/message";
+    String url = "http://localhost:80/message";
 
 
     @Test

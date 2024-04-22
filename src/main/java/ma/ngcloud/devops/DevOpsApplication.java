@@ -17,7 +17,7 @@ public class DevOpsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DevOpsApplication.class, args);
-		System.out.println("http://localhost:8081");
+		System.out.println("http://localhost:80");
 	}
 
 	@GetMapping("/message")
