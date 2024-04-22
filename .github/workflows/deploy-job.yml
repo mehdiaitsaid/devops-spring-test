@@ -35,4 +35,4 @@ jobs:
       - name: Delete old container
         run: docker rm -f devops-spring-container
       - name: Run docker container
-        run: docker run -d -p 8080:8080 --name devops-spring-container ngcloudservices/devops-spring
+        run: docker run -d -p 8081:8081 --name devops-spring-container ngcloudservices/devops-spring
