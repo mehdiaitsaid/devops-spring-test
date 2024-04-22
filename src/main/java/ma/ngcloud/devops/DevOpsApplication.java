@@ -32,7 +32,7 @@ public class DevOpsApplication {
 	@GetMapping("/")
 	public String index() {
 
-		return "Index Page";
+		return "Home Page";
 	}
 
 }
