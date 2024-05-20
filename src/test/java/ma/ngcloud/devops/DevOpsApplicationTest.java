@@ -34,7 +34,7 @@ class DevOpsApplicationTest {
         mockMvc.perform(get(url))
                 .andDo(print())
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.message").value("Bonjour"))
+                .andExpect(jsonPath("$.message").value("Hello"))
                 .andExpect(jsonPath("$.environment").value("Test"));
 
     }
