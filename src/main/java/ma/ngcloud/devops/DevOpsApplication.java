@@ -23,7 +23,7 @@ public class DevOpsApplication {
 	@GetMapping("/message")
 	public Response getMessage() {
 		Response obj = new Response();
-		obj.setMessage("Bonjour");
+		obj.setMessage("Hello");
 		obj.setEnvironment(this.env);
 		return obj;
 	}
@@ -32,7 +32,7 @@ public class DevOpsApplication {
 	@GetMapping("/")
 	public String index() {
 
-		return "My Home Page";
+		return "My index Page";
 	}
 
 }
